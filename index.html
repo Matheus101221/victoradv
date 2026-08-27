@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Nascimento | Advocacia — OAB/MG 247.204 — Cambuí-MG</title>
+<meta name="description" content="Dr. Victor Nascimento, advogado em Cambuí-MG (OAB/MG 247.204). Atuação em Direito Cível, Criminal, Trabalhista, Previdenciário, do Consumidor e Assessoria Jurídica.">
+<meta name="keywords" content="advogado Cambuí MG, advocacia Cambuí, Victor Nascimento advogado, direito cível Cambuí, direito trabalhista Cambuí">
+<meta property="og:title" content="Victor Nascimento | Advocacia — Cambuí-MG">
+<meta property="og:description" content="Atuação séria, técnica e sigilosa em Direito Cível, Criminal, Trabalhista, Previdenciário, do Consumidor e Assessoria Jurídica.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://victornascimento.adv.br/">
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Attorney",
+  "name": "Victor Nascimento",
+  "image": "images/victor-sobre.jpg",
+  "description": "Advogado em Cambuí-MG, OAB/MG 247.204. Atuação em Direito Cível, Criminal, Trabalhista, Previdenciário, do Consumidor e Assessoria Jurídica.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Governador Valadares, 237",
+    "addressLocality": "Cambuí",
+    "addressRegion": "MG",
+    "addressCountry": "BR"
+  },
+  "telephone": "+55 35 99986-1524",
+  "email": "victornas.adv@gmail.com",
+  "areaServed": "Cambuí e região, Minas Gerais",
+  "priceRange": "Consulta sob orçamento"
+}
+</script>
+
+<style>
+  :root{
+    --ink:#0b0a08;
+    --ink-soft:#171410;
+    --ivory:#f6f1e6;
+    --ivory-dim:#ece3cf;
+    --gold:#c3a05a;
+    --gold-light:#e6d3a0;
+    --gold-deep:#8a6b33;
+    --line-on-ink: rgba(198,161,91,0.35);
+    --line-on-ivory: rgba(138,107,51,0.28);
+    --muted-on-ink: rgba(246,241,230,0.58);
+    --muted-on-ivory: rgba(23,20,16,0.62);
+    --serif:'Fraunces', Georgia, serif;
+    --sans:'Work Sans', -apple-system, sans-serif;
+    --ease:cubic-bezier(.22,.61,.36,1);
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ivory);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-weight:400;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  ul{list-style:none;}
+  .container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 clamp(24px,6vw,80px);
+  }
+  section{position:relative;}
+  .eyebrow{
+    font-family:var(--sans);
+    font-size:11.5px;
+    letter-spacing:0.32em;
+    text-transform:uppercase;
+    font-weight:500;
+    color:var(--gold-deep);
+    display:inline-block;
+  }
+  section.on-ink .eyebrow{color:var(--gold-light);}
+  h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-0.01em;}
+  .rule{
+    width:56px;height:1px;
+    background:var(--gold-deep);
+    border:none;
+  }
+  .on-ink .rule{background:var(--gold);}
+
+  /* reveal on scroll */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease), transform .9s var(--ease);}
+  .reveal.in{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none;transition:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ============ NAV ============ */
+  header.site-nav{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:22px clamp(24px,6vw,80px);
+    background:linear-gradient(to bottom, rgba(11,10,8,0.85), rgba(11,10,8,0));
+    transition:background .4s var(--ease), padding .4s var(--ease), backdrop-filter .4s;
+    pointer-events:none;
+  }
+  header.site-nav > *{pointer-events:auto;}
+  header.site-nav.scrolled{
+    background:rgba(11,10,8,0.92);
+    backdrop-filter:blur(10px);
+    padding:14px clamp(24px,6vw,80px);
+    box-shadow:0 1px 0 var(--line-on-ink);
+  }
+  .brand{
+    display:flex;align-items:center;gap:10px;
+    font-family:var(--serif);color:var(--ivory);font-size:19px;letter-spacing:0.01em;
+  }
+  .brand img{height:34px;width:auto;flex-shrink:0;}
+  .brand-name{font-weight:500;}
+  .brand-suffix{font-family:var(--sans);font-size:9.5px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase;margin-left:6px;font-weight:500;}
+
+  nav.links{display:flex;gap:38px;}
+  nav.links a{
+    font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ivory);opacity:.78;font-weight:500;
+    position:relative;padding-bottom:3px;
+    transition:opacity .3s;
+  }
+  nav.links a::after{
+    content:'';position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--gold);
+    transition:width .35s var(--ease);
+  }
+  nav.links a:hover{opacity:1;}
+  nav.links a:hover::after{width:100%;}
+
+  .nav-cta{
+    font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:500;
+    color:var(--ink);background:var(--gold);
+    padding:11px 22px;border-radius:2px;
+    transition:background .3s, transform .3s;
+    white-space:nowrap;
+  }
+  .nav-cta:hover{background:var(--gold-light);transform:translateY(-1px);}
+
+  .nav-toggle{display:none;background:none;border:none;color:var(--ivory);font-size:26px;cursor:pointer;}
+
+  /* ============ HERO ============ */
+  .hero{
+    min-height:100svh;
+    background:var(--ink);
+    color:var(--ivory);
+    display:grid;grid-template-columns:1.15fr 1fr;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-photo{
+    position:relative;overflow:hidden;
+    background:#000;
+  }
+  .hero-photo img{
+    width:100%;height:100%;object-fit:cover;object-position:50% 15%;
+    filter:grayscale(0.15) contrast(1.06) brightness(0.92);
+    transform:scale(1.06);
+    opacity:0;animation:photoIn 1.6s .2s var(--ease) forwards;
+  }
+  @keyframes photoIn{to{opacity:1;}}
+  .hero-photo::after{
+    content:'';position:absolute;inset:0;
+    background:
+      linear-gradient(90deg, var(--ink) 0%, rgba(11,10,8,0.55) 14%, rgba(11,10,8,0) 40%),
+      linear-gradient(0deg, rgba(11,10,8,0.75) 0%, rgba(11,10,8,0) 30%),
+      radial-gradient(ellipse 700px 500px at 75% 20%, rgba(198,161,91,0.14), transparent 60%);
+  }
+  .hero-content{
+    position:relative;z-index:2;
+    display:flex;flex-direction:column;justify-content:center;
+    padding:150px clamp(24px,5vw,72px) 60px clamp(24px,6vw,80px);
+  }
+  .hero::before{
+    content:'';position:absolute;inset:0;z-index:1;
+    background-image:
+      linear-gradient(rgba(198,161,91,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(198,161,91,.045) 1px, transparent 1px);
+    background-size:64px 64px;
+    mask-image:radial-gradient(ellipse 60% 70% at 20% 30%, black, transparent);
+    pointer-events:none;
+  }
+  .hero-mark{
+    margin-bottom:28px;
+    opacity:0;animation:fadeUp 1s .1s var(--ease) forwards;
+  }
+  .hero-mark img{height:58px;width:auto;filter:drop-shadow(0 0 24px rgba(198,161,91,0.25));}
+
+  .hero-eyebrow{
+    opacity:0;animation:fadeUp .8s .1s var(--ease) forwards;
+  }
+  .hero h1{
+    margin-top:18px;
+    font-size:clamp(48px,8.4vw,118px);
+    line-height:0.98;
+    font-weight:400;
+    opacity:0;animation:fadeUp 1s .25s var(--ease) forwards;
+  }
+  .hero h1 em{font-style:italic;font-weight:400;color:var(--gold-light);}
+  .hero-role{
+    margin-top:22px;
+    font-size:clamp(13px,1.6vw,15px);
+    letter-spacing:.28em;text-transform:uppercase;font-weight:500;
+    color:var(--gold);
+    opacity:0;animation:fadeUp 1s .45s var(--ease) forwards;
+  }
+  .hero-tagline{
+    margin-top:26px;max-width:560px;
+    font-size:clamp(15.5px,1.9vw,18px);
+    color:var(--muted-on-ink);font-weight:300;
+    opacity:0;animation:fadeUp 1s .6s var(--ease) forwards;
+  }
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+
+  .hero-actions{
+    margin-top:46px;display:flex;gap:18px;flex-wrap:wrap;align-items:center;
+    opacity:0;animation:fadeUp 1s .78s var(--ease) forwards;
+  }
+  .btn-gold{
+    background:var(--gold);color:var(--ink);
+    padding:16px 32px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;
+    border-radius:2px;display:inline-flex;align-items:center;gap:10px;
+    transition:background .3s, transform .3s;
+  }
+  .btn-gold:hover{background:var(--gold-light);transform:translateY(-2px);}
+  .btn-outline{
+    border:1px solid var(--line-on-ink);color:var(--ivory);
+    padding:15px 30px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;
+    border-radius:2px;transition:border-color .3s, background .3s;
+  }
+  .btn-outline:hover{border-color:var(--gold);background:rgba(198,161,91,0.08);}
+
+  .hero-foot{
+    position:relative;z-index:2;
+    margin-top:64px;padding-top:24px;max-width:600px;
+    border-top:1px solid var(--line-on-ink);
+    display:flex;flex-direction:column;gap:10px;
+    font-size:12px;letter-spacing:.05em;color:var(--muted-on-ink);
+  }
+  .hero-foot b{color:var(--gold-light);font-weight:500;}
+  .scroll-cue{display:flex;align-items:center;gap:10px;order:-1;margin-bottom:4px;}
+  .scroll-cue .dot{width:5px;height:5px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:.4;}50%{opacity:1;}}
+
+  /* ============ SOBRE ============ */
+  .sobre{background:var(--ivory);padding:150px 0 140px;}
+  .sobre-grid{
+    display:grid;grid-template-columns:0.9fr 1.5fr 1.1fr;gap:56px;align-items:start;
+  }
+  .sobre-label-col{position:sticky;top:140px;}
+  .sobre-label-col .vertical{
+    writing-mode:vertical-rl;transform:rotate(180deg);
+    font-family:var(--serif);font-style:italic;font-size:15px;color:var(--muted-on-ivory);
+    height:130px;
+  }
+  .sobre-text h2{
+    font-size:clamp(32px,4vw,46px);line-height:1.15;margin-bottom:30px;
+  }
+  .sobre-text .lead::first-letter{
+    font-family:var(--serif);font-size:64px;line-height:0.7;float:left;
+    padding:8px 10px 0 0;color:var(--gold-deep);font-weight:500;
+  }
+  .sobre-text p{
+    color:var(--muted-on-ivory);font-size:16.5px;font-weight:300;margin-bottom:18px;max-width:52ch;
+  }
+  .sobre-credentials{
+    margin-top:34px;display:flex;flex-direction:column;gap:14px;
+  }
+  .credential{
+    display:flex;gap:14px;align-items:baseline;padding-top:14px;border-top:1px solid var(--line-on-ivory);
+  }
+  .credential .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep);font-weight:500;min-width:120px;}
+  .credential .v{font-size:14.5px;color:var(--ink);font-weight:400;}
+
+  .sobre-photo{position:relative;}
+  .photo-frame{
+    position:relative;aspect-ratio:3/4;overflow:hidden;
+    border:1px solid var(--line-on-ivory);
+    background:linear-gradient(150deg, #1c1912, #0b0a08);
+  }
+  .photo-frame img{width:100%;height:100%;object-fit:cover;display:block;}
+  .photo-frame .fallback{
+    position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    color:var(--gold-light);gap:14px;padding:20px;text-align:center;
+  }
+  .photo-frame .fallback svg{width:44px;height:44px;opacity:.55;}
+  .photo-frame .fallback span{font-size:11px;letter-spacing:.08em;color:var(--muted-on-ink);max-width:220px;line-height:1.5;}
+  .photo-frame img.loaded ~ .fallback{display:none;}
+  .photo-caption{
+    margin-top:16px;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-on-ivory);
+    display:flex;justify-content:space-between;
+  }
+  .corner{position:absolute;width:22px;height:22px;border:1px solid var(--gold);opacity:.9;}
+  .corner.tl{top:-1px;left:-1px;border-right:none;border-bottom:none;}
+  .corner.br{bottom:-1px;right:-1px;border-left:none;border-top:none;}
+
+  .grad-inset{
+    position:absolute;left:-56px;bottom:64px;width:132px;
+    border:6px solid var(--ivory);box-shadow:0 18px 40px rgba(11,10,8,0.35);
+    aspect-ratio:3/4;overflow:hidden;
+  }
+  .grad-inset img{width:100%;height:100%;object-fit:cover;}
+  .grad-inset-text{
+    position:absolute;left:0;right:0;bottom:0;padding:8px 8px 7px;
+    background:linear-gradient(0deg, rgba(0,0,0,.82), transparent);
+    color:var(--ivory);
+  }
+  .grad-inset-text span{display:block;font-family:var(--serif);font-style:italic;font-size:11px;line-height:1.2;}
+  .grad-inset-text small{font-size:8px;letter-spacing:.05em;color:var(--gold-light);}
+  @media (max-width:1000px){
+    .grad-inset{display:none;}
+  }
+
+  /* ============ AREAS ============ */
+  .areas{background:var(--ink);color:var(--ivory);padding:150px 0;}
+  .areas-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:80px;flex-wrap:wrap;}
+  .areas-head h2{font-size:clamp(32px,4vw,46px);max-width:520px;}
+  .areas-head p{color:var(--muted-on-ink);max-width:340px;font-size:14.5px;font-weight:300;}
+
+  .area-row{
+    display:grid;grid-template-columns:120px 1fr 1.3fr;gap:36px;
+    padding:38px 0;border-top:1px solid var(--line-on-ink);
+    align-items:baseline;
+    transition:padding .4s var(--ease);
+  }
+  .area-row:last-child{border-bottom:1px solid var(--line-on-ink);}
+  .area-num{
+    font-family:var(--serif);font-style:italic;font-weight:300;font-size:15px;color:var(--gold);
+    letter-spacing:.04em;
+  }
+  .area-num small{display:block;font-family:var(--sans);font-style:normal;font-size:9.5px;letter-spacing:.2em;color:var(--muted-on-ink);margin-top:4px;}
+  .area-title{font-family:var(--serif);font-size:clamp(22px,2.6vw,30px);font-weight:400;transition:color .3s;}
+  .area-desc{color:var(--muted-on-ink);font-size:14.5px;font-weight:300;max-width:46ch;}
+  .area-row:hover{padding-left:14px;}
+  .area-row:hover .area-title{color:var(--gold-light);}
+
+  /* ============ DIFERENCIAIS ============ */
+  .dif{background:var(--ivory);padding:150px 0;}
+  .dif-head{max-width:600px;margin-bottom:80px;}
+  .dif-head h2{font-size:clamp(32px,4vw,46px);margin-top:18px;}
+  .dif-grid{display:grid;grid-template-columns:repeat(3,1fr);}
+  .dif-item{
+    padding:0 42px;position:relative;
+  }
+  .dif-item:not(:first-child){border-left:1px solid var(--line-on-ivory);}
+  .dif-item:first-child{padding-left:0;}
+  .dif-num{font-family:var(--serif);font-style:italic;font-size:14px;color:var(--gold-deep);margin-bottom:26px;display:block;}
+  .dif-item h3{font-size:26px;margin-bottom:16px;}
+  .dif-item p{color:var(--muted-on-ivory);font-size:14.5px;font-weight:300;max-width:32ch;}
+
+  /* ============ CONTATO ============ */
+  .contato{background:var(--ink-soft);color:var(--ivory);padding:150px 0;}
+  .contato-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;}
+  .contato-intro h2{font-size:clamp(32px,4vw,46px);margin:18px 0 24px;}
+  .contato-intro p{color:var(--muted-on-ink);font-size:15.5px;font-weight:300;max-width:44ch;margin-bottom:44px;}
+
+  .info-list{display:flex;flex-direction:column;gap:0;margin-bottom:40px;}
+  .info-row{
+    display:flex;gap:20px;padding:20px 0;border-top:1px solid var(--line-on-ink);align-items:flex-start;
+  }
+  .info-row:last-child{border-bottom:1px solid var(--line-on-ink);}
+  .info-row svg{width:18px;height:18px;flex-shrink:0;margin-top:2px;color:var(--gold);}
+  .info-row .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:5px;}
+  .info-row .v{font-size:15px;font-weight:300;color:var(--ivory);}
+  .info-row a.v:hover{color:var(--gold-light);}
+
+  .map-frame{
+    border:1px solid var(--line-on-ink);height:220px;overflow:hidden;filter:grayscale(0.4) contrast(1.05) brightness(0.9);
+  }
+  .map-frame iframe{width:100%;height:100%;border:0;filter:invert(0.92) hue-rotate(180deg) contrast(0.9);}
+
+  form.contact-form{display:flex;flex-direction:column;gap:0;}
+  .field{border-bottom:1px solid var(--line-on-ink);padding:18px 0;position:relative;transition:border-color .3s;}
+  .field:focus-within{border-color:var(--gold);}
+  .field label{
+    position:absolute;top:18px;left:0;font-size:15px;color:var(--muted-on-ink);
+    pointer-events:none;transition:all .25s var(--ease);font-weight:300;
+  }
+  .field input,.field textarea{
+    width:100%;background:none;border:none;outline:none;color:var(--ivory);
+    font-family:var(--sans);font-size:15px;padding-top:10px;font-weight:300;resize:none;
+  }
+  .field textarea{min-height:70px;}
+  .field input:focus + label,.field input:not(:placeholder-shown) + label,
+  .field textarea:focus + label,.field textarea:not(:placeholder-shown) + label{
+    top:-2px;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);
+  }
+  .form-submit{
+    margin-top:34px;background:var(--gold);color:var(--ink);border:none;cursor:pointer;
+    padding:17px 34px;font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;
+    border-radius:2px;align-self:flex-start;transition:background .3s, transform .3s;
+  }
+  .form-submit:hover{background:var(--gold-light);transform:translateY(-2px);}
+  .form-note{margin-top:16px;font-size:12px;color:var(--muted-on-ink);}
+
+  /* ============ FOOTER ============ */
+  footer{background:var(--ink);color:var(--muted-on-ink);padding:56px 0 34px;border-top:1px solid var(--line-on-ink);}
+  .footer-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:26px;margin-bottom:40px;}
+  .footer-brand{display:flex;align-items:center;gap:10px;color:var(--ivory);font-family:var(--serif);font-size:19px;}
+  .footer-brand img{height:28px;width:auto;}
+  .footer-links{display:flex;gap:30px;flex-wrap:wrap;}
+  .footer-links a{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-on-ink);transition:color .3s;}
+  .footer-links a:hover{color:var(--gold);}
+  .footer-bottom{
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;
+    padding-top:26px;border-top:1px solid var(--line-on-ink);font-size:11.5px;letter-spacing:.03em;
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width:1000px){
+    nav.links{display:none;}
+    .nav-toggle{display:block;}
+    .sobre-grid{grid-template-columns:1fr;gap:50px;}
+    .sobre-label-col{display:none;}
+    .sobre-photo{max-width:340px;}
+    .area-row{grid-template-columns:70px 1fr;}
+    .area-desc{grid-column:1/-1;margin-top:8px;}
+    .dif-grid{grid-template-columns:1fr;gap:50px;}
+    .dif-item{border-left:none !important;padding-left:0 !important;padding-top:36px;border-top:1px solid var(--line-on-ivory);}
+    .dif-item:first-child{border-top:none;padding-top:0;}
+    .contato-grid{grid-template-columns:1fr;gap:60px;}
+    .hero{grid-template-columns:1fr;}
+    .hero-photo{height:46vh;order:-1;}
+    .hero-photo::after{
+      background:
+        linear-gradient(0deg, var(--ink) 0%, rgba(11,10,8,0.2) 55%, rgba(11,10,8,0) 100%);
+    }
+    .hero-content{padding:36px clamp(24px,6vw,80px) 60px;}
+    .hero-mark img{height:46px;}
+  }
+  @media (max-width:600px){
+    .sobre,.areas,.dif,.contato{padding:96px 0;}
+    .hero-content{padding-top:32px;}
+  }
+
+  /* mobile menu */
+  .mobile-menu{
+    position:fixed;inset:0;background:var(--ink);z-index:200;
+    display:flex;flex-direction:column;justify-content:center;align-items:center;gap:34px;
+    transform:translateY(-100%);transition:transform .5s var(--ease);
+  }
+  .mobile-menu.open{transform:translateY(0);}
+  .mobile-menu a{font-family:var(--serif);font-size:32px;color:var(--ivory);}
+  .mobile-menu .close-btn{position:absolute;top:26px;right:28px;background:none;border:none;color:var(--ivory);font-size:28px;cursor:pointer;}
+
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+</style>
+</head>
+<body>
+
+<header class="site-nav" id="siteNav">
+  <a href="#topo" class="brand">
+    <img src="images/logo-icon.png" alt="Victor Nascimento Advocacia">
+    <span class="brand-name">Victor Nascimento</span><span class="brand-suffix">Advocacia</span>
+  </a>
+  <nav class="links">
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Áreas</a>
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a href="#contato" class="nav-cta">Falar com o advogado</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-btn" id="closeMenu" aria-label="Fechar menu">×</button>
+  <a href="#sobre">Sobre</a>
+  <a href="#areas">Áreas</a>
+  <a href="#diferenciais">Diferenciais</a>
+  <a href="#contato">Contato</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="topo">
+  <div class="hero-content">
+    <div class="hero-mark" aria-hidden="true">
+      <img src="images/logo-icon.png" alt="">
+    </div>
+    <span class="eyebrow hero-eyebrow">Advocacia — Cambuí · MG</span>
+    <h1>Victor<br><em>Nascimento</em></h1>
+    <div class="hero-role">OAB/MG 247.204</div>
+    <p class="hero-tagline">Atuação jurídica séria, técnica e discreta — conduzida com o rigor de quem estuda o Direito e a atenção de quem representa pessoas.</p>
+    <div class="hero-actions">
+      <a href="https://wa.me/5535999861524?text=Ol%C3%A1%2C%20Dr.%20Victor.%20Gostaria%20de%20agendar%20uma%20conversa." class="btn-gold" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.82L2 22l5.4-1.42a9.85 9.85 0 0 0 4.64 1.18h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z" opacity=".18"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.82L2 22l5.4-1.42a9.85 9.85 0 0 0 4.64 1.18h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.16c-.24.68-1.4 1.3-1.93 1.36-.5.06-1.02.26-3.44-.72-2.9-1.17-4.76-4.06-4.9-4.25-.14-.19-1.17-1.56-1.17-2.98 0-1.42.75-2.11 1.02-2.4.26-.29.57-.36.76-.36h.55c.18 0 .42-.02.64.5.24.56.8 1.94.87 2.08.07.14.12.31.02.5-.1.19-.15.31-.29.48-.15.17-.31.38-.44.5-.15.15-.3.31-.13.6.17.29.76 1.26 1.63 2.04 1.12 1 2.06 1.32 2.35 1.47.29.15.46.13.63-.08.17-.21.71-.83.9-1.12.19-.29.38-.24.63-.14.26.1 1.63.77 1.91.91.29.14.48.21.55.33.07.13.07.72-.17 1.4Z"/></svg>
+        WhatsApp
+      </a>
+      <a href="#contato" class="btn-outline">Agendar consulta</a>
+    </div>
+    <div class="hero-foot">
+      <div class="scroll-cue"><span class="dot"></span>Role para conhecer</div>
+      <div>Rua Governador Valadares, 237 — <b>Cambuí, MG</b></div>
+      <div>Mestrando em Constitucionalismo e Democracia — <b>FDSM</b></div>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="images/victor-formatura.jpg" alt="Dr. Victor Nascimento na colação de grau em Direito">
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="container sobre-grid">
+    <div class="sobre-label-col reveal">
+      <span class="vertical">O advogado</span>
+    </div>
+    <div class="sobre-text reveal">
+      <span class="eyebrow">Sobre</span>
+      <h2>Formação técnica a serviço de decisões que pesam.</h2>
+      <p class="lead">Victor Nascimento é advogado inscrito na OAB/MG sob o nº 247.204, com atuação em Cambuí e nas comarcas da região. Sua prática nasce de uma convicção simples: cada processo carrega uma história e cada história merece atenção integral — não um número em uma pauta.</p>
+      <p>Atualmente é mestrando em Constitucionalismo e Democracia pela Faculdade de Direito do Sul de Minas (FDSM), aprofundamento que sustenta uma leitura mais rigorosa dos casos que chegam ao escritório — do cível ao trabalhista, do criminal ao previdenciário.</p>
+      <p>O escritório atende em Cambuí-MG, com estrutura para acompanhar clientes de toda a região, sempre com retorno ágil e linguagem acessível sobre cada etapa do processo.</p>
+
+      <div class="sobre-credentials">
+        <div class="credential"><span class="k">Registro</span><span class="v">OAB/MG 247.204</span></div>
+        <div class="credential"><span class="k">Formação</span><span class="v">Bacharelado em Direito</span></div>
+        <div class="credential"><span class="k">Pós-graduação</span><span class="v">Mestrando em Constitucionalismo e Democracia — FDSM</span></div>
+        <div class="credential"><span class="k">Atuação</span><span class="v">Cambuí-MG e região</span></div>
+      </div>
+    </div>
+    <div class="sobre-photo reveal">
+      <div class="photo-frame">
+        <img src="images/victor-sobre.jpg" alt="Dr. Victor Nascimento, advogado" onload="this.classList.add('loaded')" onerror="this.style.display='none'">
+        <div class="fallback">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          <span>Substitua por images/victor-sobre.jpg</span>
+        </div>
+        <span class="corner tl"></span><span class="corner br"></span>
+      </div>
+      <div class="photo-caption"><span>Victor Nascimento</span><span>Cambuí — MG</span></div>
+
+      <div class="grad-inset">
+        <img src="images/victor-formatura.jpg" alt="Colação de grau — Bacharel em Direito" onerror="this.parentElement.style.display='none'">
+        <div class="grad-inset-text"><span>Colação de grau</span><small>Bacharel em Direito</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section class="areas on-ink" id="areas">
+  <div class="container">
+    <div class="areas-head reveal">
+      <div>
+        <span class="eyebrow">Áreas de atuação</span>
+        <h2>Seis frentes, um único compromisso técnico.</h2>
+      </div>
+      <p>Cada área listada abaixo segue a lógica do próprio Direito: matérias distintas, tratadas com o mesmo rigor processual.</p>
+    </div>
+
+    <div class="area-row reveal">
+      <div class="area-num">Art. I<small>Cível</small></div>
+      <div class="area-title">Direito Cível</div>
+      <div class="area-desc">Contratos, responsabilidade civil, ações possessórias, cobranças e demais litígios entre particulares, com foco em solução eficiente e bem fundamentada.</div>
+    </div>
+    <div class="area-row reveal">
+      <div class="area-num">Art. II<small>Criminal</small></div>
+      <div class="area-title">Direito Criminal</div>
+      <div class="area-desc">Defesa técnica em inquéritos e processos penais, acompanhamento em audiências e atuação estratégica em todas as fases da persecução penal.</div>
+    </div>
+    <div class="area-row reveal">
+      <div class="area-num">Art. III<small>Trabalhista</small></div>
+      <div class="area-title">Direito Trabalhista</div>
+      <div class="area-desc">Reclamações trabalhistas, rescisões, verbas rescisórias e assessoria a empregadores e empregados nas relações de trabalho.</div>
+    </div>
+    <div class="area-row reveal">
+      <div class="area-num">Art. IV<small>Previdenciário</small></div>
+      <div class="area-title">Direito Previdenciário</div>
+      <div class="area-desc">Aposentadorias, revisões de benefício, auxílios e pensões junto ao INSS, da via administrativa à judicial.</div>
+    </div>
+    <div class="area-row reveal">
+      <div class="area-num">Art. V<small>Consumidor</small></div>
+      <div class="area-title">Direito do Consumidor</div>
+      <div class="area-desc">Defesa de direitos em relações de consumo — cobranças indevidas, produtos e serviços com vício, negativações e práticas abusivas.</div>
+    </div>
+    <div class="area-row reveal">
+      <div class="area-num">Art. VI<small>Assessoria</small></div>
+      <div class="area-title">Assessoria Jurídica</div>
+      <div class="area-desc">Consultoria preventiva para pessoas físicas e pequenos negócios, com análise de contratos e orientação contínua antes que o litígio exista.</div>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="dif" id="diferenciais">
+  <div class="container">
+    <div class="dif-head reveal">
+      <span class="eyebrow">Diferenciais</span>
+      <h2>Princípios que não são negociados.</h2>
+    </div>
+    <div class="dif-grid">
+      <div class="dif-item reveal">
+        <span class="dif-num">01</span>
+        <h3>Ética</h3>
+        <p>Cada orientação é dada com honestidade — inclusive quando a resposta não é a que o cliente esperava ouvir.</p>
+      </div>
+      <div class="dif-item reveal">
+        <span class="dif-num">02</span>
+        <h3>Técnica</h3>
+        <p>Fundamentação sólida, estudo contínuo e atenção aos detalhes que decidem um processo antes mesmo da audiência.</p>
+      </div>
+      <div class="dif-item reveal">
+        <span class="dif-num">03</span>
+        <h3>Sigilo</h3>
+        <p>Todo caso é tratado com confidencialidade absoluta, do primeiro contato ao encerramento do processo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contato on-ink" id="contato">
+  <div class="container contato-grid">
+    <div class="contato-intro reveal">
+      <span class="eyebrow">Contato</span>
+      <h2>Vamos conversar sobre o seu caso.</h2>
+      <p>Atendimento em Cambuí-MG e região. Envie sua mensagem ou fale diretamente pelo WhatsApp — o retorno costuma ser rápido.</p>
+
+      <div class="info-list">
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/><path d="m22 6-10 7L2 6"/></svg>
+          <div><div class="k">E-mail</div><a class="v" href="mailto:victornas.adv@gmail.com">victornas.adv@gmail.com</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <div><div class="k">Telefone / WhatsApp</div><a class="v" href="https://wa.me/5535999861524" target="_blank" rel="noopener">(35) 99986-1524</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <div><div class="k">Telefone fixo</div><a class="v" href="tel:+553597187390">(35) 9718-7390</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><div class="k">Endereço</div><span class="v">Rua Governador Valadares, 237 — Cambuí, MG</span></div>
+        </div>
+      </div>
+
+      <div class="map-frame">
+        <iframe src="https://www.google.com/maps?q=Rua+Governador+Valadares,+237,+Cambu%C3%AD,+MG&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localização do escritório"></iframe>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <form class="contact-form" id="contactForm" action="mailto:victornas.adv@gmail.com" method="get" enctype="text/plain">
+        <div class="field">
+          <input type="text" id="nome" name="nome" placeholder=" " required>
+          <label for="nome">Nome completo</label>
+        </div>
+        <div class="field">
+          <input type="tel" id="telefone" name="telefone" placeholder=" " required>
+          <label for="telefone">Telefone</label>
+        </div>
+        <div class="field">
+          <input type="email" id="email" name="email" placeholder=" " required>
+          <label for="email">E-mail</label>
+        </div>
+        <div class="field">
+          <textarea id="mensagem" name="mensagem" placeholder=" " required></textarea>
+          <label for="mensagem">Descreva brevemente seu caso</label>
+        </div>
+        <button type="submit" class="form-submit">Enviar mensagem</button>
+        <p class="form-note" id="formNote">Ao enviar, seu cliente de e-mail abrirá com a mensagem pronta para o envio.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/logo-icon.png" alt="Victor Nascimento Advocacia">
+        Victor Nascimento — Advocacia
+      </div>
+      <div class="footer-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#areas">Áreas</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+        <a href="https://instagram.com/adv.victornas" target="_blank" rel="noopener">@adv.victornas</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>OAB/MG 247.204 — Rua Governador Valadares, 237, Cambuí-MG</span>
+      <span>&copy; <span id="year"></span> Victor Nascimento Advocacia. Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // nav background on scroll
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // mobile menu
+  const menu = document.getElementById('mobileMenu');
+  document.getElementById('navToggle').addEventListener('click', () => menu.classList.add('open'));
+  document.getElementById('closeMenu').addEventListener('click', () => menu.classList.remove('open'));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+
+  // reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // graceful image fallback (also catch already-broken state)
+  document.querySelectorAll('.photo-frame img').forEach(img => {
+    if (img.complete && img.naturalWidth === 0) img.style.display = 'none';
+  });
+</script>
+
+</body>
+</html>
